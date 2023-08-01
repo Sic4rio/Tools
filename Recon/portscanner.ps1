@@ -62,3 +62,4 @@ if ($portResults.OpenPorts.Count -gt 0) {
 #if ($portResults.ClosedPorts.Count -gt 0) {
  #   Show-Result "Closed ports: $($portResults.ClosedPorts -join ', ')" -Color "Red"
 #}
+#portscanner

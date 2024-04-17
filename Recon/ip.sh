@@ -6,6 +6,10 @@ GREEN=$(tput setaf 2)
 YELLOW=$(tput setaf 3)
 NC=$(tput sgr0)
 
+# a script to aid testers. pass it a domain.txt file and the script will ping to see if the host is live then output the ipaddress and upstatus 
+
+#SIC4RI0 2024
+
 # Print banner
 echo "${YELLOW}-------------------------------------"
 echo "      Domain Ping Status Checker"
